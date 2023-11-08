@@ -6,7 +6,7 @@
 - Jassiel Noe Manuel Martínez
 
 ## Objetivo general
-Parrafo con el objetivo general
+El objetivo general de este proyecto es crear un nacimiento navideño interactivo y atractivo que combine la tradición con la tecnología, utilizando componentes electrónicos y programación para dar vida a las figuras de José y María, iluminación ambiental, música, efectos de sonido y opciones de control para el usuario.
 
 
 ## Tabla de Software utilizado
