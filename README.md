@@ -21,14 +21,10 @@ El objetivo general de este proyecto es crear un nacimiento navideño interactiv
 ## Tabla con el hardware utilizado
 | Id | Componente       | Descripción | Imagen  | Cantidad | Costo total |
 |----|------------------|-------------|---------|----------|-------------|
-| 1  | ESP32            | Microcontrolador | ![image](https://github.com/JassielNoe/repostorio-IoT/assets/148307668/f515a646-30e9-45ce-a4e4-78cd235837e2)
-| 1 | $10 |
-| 2  | Sensor de Temperatura DHT22 | Sensor de temperatura y humedad | [Imagen DHT22](url_imagen_dht22) | 1 | $5 |
-| 3  | Pantalla LCD 16x2 I2C | Pantalla para visualización | [Imagen LCD](url_imagen_lcd) | 1 | $8 |
-| 4  | Buzzer | Zumbador | [Imagen Buzzer](url_imagen_buzzer) | 1 | $2 |
+| 1  | ESP32            | Microcontrolador | ![image](https://github.com/JassielNoe/repostorio-IoT/assets/148307668/f515a646-30e9-45ce-a4e4-78cd235837e2)| 3 | $600 |
+| 4  | Buzzer | Zumbador | | 1 | $80 |
 | 5  | Botones | Botones para interacción | [Imagen Botones](url_imagen_botones) | 2 | $1 (cada uno) |
 | 6  | Servomotores | Componente para movimiento | [Imagen Servomotores](url_imagen_servo) | 2 | $6 (cada uno) |
-| 7  | Sensores de Proximidad | Para detectar la presencia de personas | [Imagen Sensores de Proximidad](url_imagen_proximidad) | 2 | $3 (cada uno) |
 | 8  | Ropa y Vestuario | Vestuario para José y María | [Imagen Ropa y Vestuario](url_imagen_ropa) | - | Variable |
 | 9  | Luces LED | Para efectos de iluminación | [Imagen Luces LED](url_imagen_luces) | - | Variable |
 | 10 | Altavoces o Módulos de Sonido | Para efectos de sonido | [Imagen Altavoces](url_imagen_altavoces) | - | Variable |
