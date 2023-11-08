@@ -21,7 +21,7 @@ El objetivo general de este proyecto es crear un nacimiento navideño interactiv
 ## Tabla con el hardware utilizado
 | Id | Componente       | Descripción | Imagen  | Cantidad | Costo total |
 |----|------------------|-------------|---------|----------|-------------|
-| 1  | ESP32            | Microcontrolador | [Imagen ESP32](url_imagen_esp32) | 1 | $10 |
+| 1  | ESP32            | Microcontrolador | [Imagen ESP32](https://www.mouser.mx/images/espressifsystems/lrg/ESP32-S2-DeVkitM-1_SPL.jpg) | 1 | $10 |
 | 2  | Sensor de Temperatura DHT22 | Sensor de temperatura y humedad | [Imagen DHT22](url_imagen_dht22) | 1 | $5 |
 | 3  | Pantalla LCD 16x2 I2C | Pantalla para visualización | [Imagen LCD](url_imagen_lcd) | 1 | $8 |
 | 4  | Buzzer | Zumbador | [Imagen Buzzer](url_imagen_buzzer) | 1 | $2 |
