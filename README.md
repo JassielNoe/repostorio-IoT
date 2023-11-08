@@ -21,7 +21,7 @@ El objetivo general de este proyecto es crear un nacimiento navideño interactiv
 ## Tabla con el hardware utilizado
 | Id | Componente       | Descripción | Imagen  | Cantidad | Costo total |
 |----|------------------|-------------|---------|----------|-------------|
-| 1  | ESP32            | Microcontrolador | ![image](https://github.com/JassielNoe/repostorio-IoT/assets/148307668/f515a646-30e9-45ce-a4e4-78cd235837e2)| 3 | $600 |
+| 1  | ESP32            | Microcontrolador | | 3 | $600 |
 | 4  | Buzzer | Zumbador | | 1 | $80 |
 | 5  | Botones | Botones para interacción | [Imagen Botones](url_imagen_botones) | 2 | $1 (cada uno) |
 | 6  | Servomotores | Componente para movimiento | [Imagen Servomotores](url_imagen_servo) | 2 | $6 (cada uno) |
