@@ -47,7 +47,7 @@ El objetivo general de este proyecto es crear un nacimiento navideño interactiv
 
 
 ## Prototipo en dibujo
-- Coloca la fotografia de tu prototipo dibujado a lapiz
+![image](https://github.com/JassielNoe/repostorio-IoT/assets/148307668/c4dbcde4-03b1-4a27-8326-081794f78b82)
 
 ## Diagrama del circuito
 - Coloca la imagen con el circuito propuesta
