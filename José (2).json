@@ -1,0 +1,210 @@
+[
+    {
+        "id": "61e9a04ba9a61961",
+        "type": "tab",
+        "label": "José",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4225aae861aa61d4",
+        "type": "inject",
+        "z": "61e9a04ba9a61961",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 220,
+        "wires": [
+            [
+                "745eadcca56c89b7"
+            ]
+        ]
+    },
+    {
+        "id": "745eadcca56c89b7",
+        "type": "ui_switch",
+        "z": "61e9a04ba9a61961",
+        "name": "",
+        "label": "Switch LEDS",
+        "tooltip": "",
+        "group": "f1aa67cb464d0c9d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 370,
+        "y": 180,
+        "wires": [
+            [
+                "f721a5625a2a8fb7"
+            ]
+        ]
+    },
+    {
+        "id": "f721a5625a2a8fb7",
+        "type": "mqtt out",
+        "z": "61e9a04ba9a61961",
+        "name": "",
+        "topic": "utng/Jose/ledMotorBuzzer",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "1c577bf50bf765b7",
+        "x": 610,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "dc1dc3c5a594101e",
+        "type": "ui_switch",
+        "z": "61e9a04ba9a61961",
+        "name": "",
+        "label": "Switch MOTOR",
+        "tooltip": "",
+        "group": "f1aa67cb464d0c9d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "2",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "3",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 360,
+        "y": 260,
+        "wires": [
+            [
+                "f721a5625a2a8fb7"
+            ]
+        ]
+    },
+    {
+        "id": "8311e8311fd62723",
+        "type": "ui_switch",
+        "z": "61e9a04ba9a61961",
+        "name": "",
+        "label": "Switch BUZZER",
+        "tooltip": "",
+        "group": "f1aa67cb464d0c9d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "4",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "5",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 360,
+        "y": 340,
+        "wires": [
+            [
+                "f721a5625a2a8fb7"
+            ]
+        ]
+    },
+    {
+        "id": "f1aa67cb464d0c9d",
+        "type": "ui_group",
+        "name": "Encender LEDS",
+        "tab": "7e0a3cf272283906",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1c577bf50bf765b7",
+        "type": "mqtt-broker",
+        "name": "Broker Profe",
+        "broker": "192.168.1.100",
+        "port": "1880",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "7e0a3cf272283906",
+        "type": "ui_tab",
+        "name": "LED's",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    }
+]
